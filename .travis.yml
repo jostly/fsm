@@ -4,6 +4,8 @@ before_install:
 language: scala
 scala:
 - 2.11.8
+jdk:
+- oraclejdk8
 notifications:
   email: false
 script: "./travis.sh"
